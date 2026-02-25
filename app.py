@@ -19,6 +19,7 @@ except FileNotFoundError:
     st.info("🖼️ 圖片預留區：請將檔名命名為 `image_teacher_parking.jpg` 並上傳至 GitHub")
 
 # 老師家 (走路)
+st.markdown("### 🚶 老師家 &nbsp;&nbsp; <span style='font-size: 16px; font-weight: normal;'>臺南市西港區新興街106巷8號</span>", unsafe_allow_html=True)
 st.subheader("🚶 老師家")
 st.write("""
 臺南市西港區新興街106巷8號
