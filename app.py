@@ -5,9 +5,6 @@ st.set_page_config(page_title="行程與導航指南", page_icon="🗺️", layo
 
 # --- 第一部分：老師 ---
 st.title("台南老師")
-
-# 停車點 (開車)
-st.subheader("")
 # link_button 在手機上會顯示為一個大按鈕，方便觸控
 st.link_button("👉 點我導航至 停車點", "https://maps.app.goo.gl/jxkgMhww3xWPH2WK8", use_container_width=True)
 
