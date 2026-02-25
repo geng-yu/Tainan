@@ -4,12 +4,12 @@ import streamlit as st
 st.set_page_config(page_title="行程與導航指南", page_icon="🗺️", layout="centered")
 
 # --- 第一部分：老師 ---
-st.title("老師")
+st.title("台南老師")
 
 # 停車點 (開車)
-st.subheader("🚗 停車點")
+st.subheader("")
 # link_button 在手機上會顯示為一個大按鈕，方便觸控
-st.link_button("👉 點我導航至：老師家停車點", "https://maps.app.goo.gl/jxkgMhww3xWPH2WK8", use_container_width=True)
+st.link_button("🚗 停車點", "https://maps.app.goo.gl/jxkgMhww3xWPH2WK8", use_container_width=True)
 
 # 圖片放置處：使用 try-except 避免您還沒放圖片時網頁報錯
 try:
