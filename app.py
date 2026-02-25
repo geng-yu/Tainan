@@ -9,7 +9,7 @@ st.title("台南老師")
 # 停車點 (開車)
 st.subheader("")
 # link_button 在手機上會顯示為一個大按鈕，方便觸控
-st.link_button("🚗 停車點", "https://maps.app.goo.gl/jxkgMhww3xWPH2WK8", use_container_width=True)
+st.link_button("👉 點我導航至 停車點", "https://maps.app.goo.gl/jxkgMhww3xWPH2WK8", use_container_width=True)
 
 # 圖片放置處：使用 try-except 避免您還沒放圖片時網頁報錯
 try:
@@ -57,7 +57,5 @@ except FileNotFoundError:
 # 文字區塊
 st.subheader("📝 補充說明")
 st.write("""
-請在這裡填寫您需要的文字說明。
-您可以直接在 `app.py` 裡面修改這段文字。
-例如：注意事項、聯絡人電話、或是祭改需要準備的物品等。
+到廟後，到1F中間進去，左邊，說要祭改，，給林老師，問他林老師是哪一個他會跟你說，然後拿祭改的東西去排隊(放在林老師桌上，放完後去2F拜、1拜，等祭改
 """)
