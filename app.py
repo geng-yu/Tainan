@@ -18,7 +18,7 @@ except FileNotFoundError:
 # 老師家 (走路)
 st.markdown("### 🚶 老師家 &nbsp;&nbsp; <span style='font-size: 16px; font-weight: normal;'>臺南市西港區新興街106巷8號</span>", unsafe_allow_html=True)
 
-st.link_button("👉 點我導航至：老師家", "https://maps.app.goo.gl/9C5QxTWD7q9AK5eq8", use_container_width=True)
+st.link_button("👉 點我導航至：老師家", "https://maps.app.goo.gl/y1pTPghbcqcK3NNY6", use_container_width=True)
 
 try:
     st.image("image_teacher_house.jpg", caption="老師家實景", use_container_width=True)
@@ -47,7 +47,7 @@ except FileNotFoundError:
 
 # 停車場 (開車)
 st.subheader("🅿️ 停車場")
-st.link_button("👉 點我導航至：停車場", "https://maps.app.goo.gl/1bYYhVkcfYMhcdtk8", use_container_width=True)
+st.link_button("👉 點我導航至：停車場", "https://maps.app.goo.gl/hpkZjazy16qsN8Tw9", use_container_width=True)
 
 try:
     st.image("image_parking.jpg", caption="停車場實景", use_container_width=True)
@@ -57,5 +57,5 @@ except FileNotFoundError:
 # 文字區塊
 st.subheader("📝 補充說明")
 st.write("""
-1樓中間的左邊，說要祭改(600元)，問他林老師是哪一個他會跟你說，然後拿祭改的東西去排隊(600元+老師白紙1張)，放在林老師桌上，放完後去2F拜、1F拜，等祭改
+1樓中間的左邊，說要祭改(600元)，問他林老師是哪一個他會跟你說，然後拿祭改的東西去排隊(祭改物品+老師白紙1張)，放在林老師桌上，放完後去2F拜、1F拜，等祭改
 """)
